@@ -10,6 +10,7 @@ jobs:
           - uses: actions/setup-java@v4
             with:
                 java-version: 21
+                distribution: 'temurin'
                 cache: 'maven'
 
           - name: Build with Maven
@@ -24,6 +25,7 @@ jobs:
           - uses: actions/setup-java@v4
             with:
                 java-version: 21
+                distribution: 'temurin'
                 cache: 'maven'
 
           - name: Test with Maven
